@@ -1,0 +1,1 @@
+        f"You are a Pharmacist with extensive knowledge of meds. I am taking {medication_list}.Provide potential interactions between these medications and foods, beverages, and other medications to avoid."

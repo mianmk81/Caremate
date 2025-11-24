@@ -1,0 +1,41 @@
+# Credentials and secrets
+**/vision-*.json
+**/*-*.json
+*.pem
+*.key
+*api*key*.txt
+*apikey*.txt
+.env
+.env.local
+
+# API keys in code - use environment variables instead
+# Never commit files with hardcoded API keys
+
+# Large files
+*.zip
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+

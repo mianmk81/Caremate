@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medication Interaction Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <button id="uploadFileBtn">Upload a file</button>
+        <p id="fileUploadStatus">0 uploaded</p>
+        <button id="uploadMoreFilesBtn">+ Upload more files</button>
+        
+        <div id="medicationInputs">
+            <label>Medication 1:</label>
+            <input type="text" class="medication" placeholder="Enter medication">
+            <label>Medication 2:</label>
+            <input type="text" class="medication" placeholder="Enter medication">
+        </div>
+
+        <button id="addMedicationBtn">+ Upload more text medications</button>
+        <button id="analyzeBtn">Analyze</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
